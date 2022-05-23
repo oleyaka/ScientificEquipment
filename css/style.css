@@ -1,0 +1,181 @@
+:root {
+	--color1: #147E45;
+	--color2: #FFFFFF;
+	--color3: #274C5B;
+	--color4: #0B132A;;
+}
+
+
+body {
+	font-family: Rubik, sans-serif;
+	font-size: 17px;
+	color: #4F5665;	
+}
+
+
+.nav-link {
+	text-decoration: none;
+	color: #4F5665;	
+}
+
+
+
+header {
+	padding-top: 50px;
+}
+
+section, footer {
+	padding-top: 150px;
+}
+
+.text_big {
+	font-size: 35px;
+	font-weight: 500;
+	color: var(--color4);
+}
+
+.text_medium {
+	font-size: 22px;
+	font-weight: 500;
+	color: var(--color4);
+}
+
+.text_mini {
+	font-size: 17px;
+	font-weight: 400;
+	color: #4F5665;
+	line-height: 30px;
+}
+
+.text_small {
+	font-weight: 400;
+	font-size: 14px;
+	color: #0B132A;
+}
+
+.logo {
+	font-size: 24px;
+	color: var(--color4);
+}
+
+.logo_green {
+	font-size: 24px;
+	color: var(--color1);
+}
+
+.active {
+	color: var(--color1);
+}
+
+
+.home_img {
+	padding-top: 100px;
+	margin-left: -50px;
+}
+
+.home_text {
+	width: 550px;
+}
+
+.home_list_text {
+	font-weight: 400;
+	color: #000000;
+	padding-left: 30px;
+	padding-bottom: 10px;
+
+
+}
+
+.home_list {	
+	list-style-image: url("../img/point.png");
+
+}
+
+
+.button_green {
+	width: 300px;
+	height: 60px;
+	background-color: var(--color1);
+	color: #FFFFFF;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 4px 20px rgba(13, 77, 42, 0.33);
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.button_white {
+	width: 300px;
+	height: 60px;
+	background-color: #fff;
+	color: var(--color1);
+	border-radius: 10px;
+	border: 2px solid var(--color1);
+	font-weight: 700;
+	
+	cursor: pointer;
+}
+
+.working_text {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.tank_text {
+	margin-right: 150px;
+
+}
+
+.questions {
+	width: 1200px;
+	height: 233px;
+	box-shadow: 0px 4px 63px rgba(165, 165, 165, 0.25);
+	border-radius: 10px;
+}
+
+.questions_text {
+	margin: auto;
+	margin-left: 150px;
+
+}
+
+.questions_button {
+	margin: auto;
+	margin-right: 150px;
+}
+
+.footer_text {
+	padding-top: 100px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #AFB5C0;
+
+}
+
+.motomini_img {
+	padding-top: 25px;
+}
+
+.home, .catalog {
+	padding-top: 50px;
+}
+
+.line_equipment {
+	margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
