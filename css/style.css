@@ -164,7 +164,9 @@ section, footer {
 	margin: 50px;
 }
 
-
+.logo_cursor {
+	cursor: pointer;
+}
 
 
 
