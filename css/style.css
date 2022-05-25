@@ -104,6 +104,10 @@ section, footer {
 	font-weight: 700;
 }
 
+.button_green:hover {
+	background-color: #1FB765;
+}
+
 .button_white {
 	width: 300px;
 	height: 60px;
@@ -111,9 +115,13 @@ section, footer {
 	color: var(--color1);
 	border-radius: 10px;
 	border: 2px solid var(--color1);
-	font-weight: 700;
-	
+	font-weight: 700;	
 	cursor: pointer;
+}
+
+.button_white:hover {
+	background-color: var(--color1);
+	color: #fff;
 }
 
 .working_text {
