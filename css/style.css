@@ -67,6 +67,9 @@ section, footer {
 	color: var(--color1);
 }
 
+.active:hover {
+	color: var(--color4);
+}
 
 .home_img {
 	padding-top: 100px;
@@ -91,6 +94,9 @@ section, footer {
 
 }
 
+.nav-link:hover {
+	color: var(--color1);
+}
 
 .button_green {
 	width: 300px;
