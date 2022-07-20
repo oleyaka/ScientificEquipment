@@ -5,20 +5,11 @@
 	--color4: #0B132A;;
 }
 
-
 body {
 	font-family: Rubik, sans-serif;
 	font-size: 17px;
 	color: #4F5665;	
 }
-
-
-.nav-link {
-	text-decoration: none;
-	color: #4F5665;	
-}
-
-
 
 header {
 	padding-top: 50px;
@@ -53,6 +44,21 @@ section, footer {
 	color: #0B132A;
 }
 
+.tank_text {
+	margin-right: 150px;
+}
+
+/*header*/
+
+.nav-link {
+	text-decoration: none;
+	color: #4F5665;	
+}
+
+.nav-link:hover {
+	color: var(--color1);
+}
+
 .logo {
 	font-size: 24px;
 	color: var(--color4);
@@ -63,6 +69,10 @@ section, footer {
 	color: var(--color1);
 }
 
+.logo_cursor {
+	cursor: pointer;
+}
+
 .active {
 	color: var(--color1);
 }
@@ -70,6 +80,8 @@ section, footer {
 .active:hover {
 	color: var(--color4);
 }
+
+/*home*/
 
 .home_img {
 	padding-top: 100px;
@@ -85,18 +97,13 @@ section, footer {
 	color: #000000;
 	padding-left: 30px;
 	padding-bottom: 10px;
-
-
 }
 
 .home_list {	
 	list-style-image: url("../img/point.png");
-
 }
 
-.nav-link:hover {
-	color: var(--color1);
-}
+/*button*/
 
 .button_green {
 	width: 300px;
@@ -130,15 +137,14 @@ section, footer {
 	color: #fff;
 }
 
+/*working*/
+
 .working_text {
 	padding-bottom: 40px;
 	padding-top: 20px;
 }
 
-.tank_text {
-	margin-right: 150px;
-
-}
+/*questions*/
 
 .questions {
 	width: 1200px;
@@ -150,7 +156,6 @@ section, footer {
 .questions_text {
 	margin: auto;
 	margin-left: 150px;
-
 }
 
 .questions_button {
@@ -158,13 +163,16 @@ section, footer {
 	margin-right: 150px;
 }
 
+/*footer*/
+
 .footer_text {
 	padding-top: 100px;
 	font-weight: 400;
 	font-size: 16px;
 	color: #AFB5C0;
-
 }
+
+/*другое*/
 
 .motomini_img {
 	padding-top: 25px;
@@ -178,17 +186,63 @@ section, footer {
 	margin: 50px;
 }
 
-.logo_cursor {
-	cursor: pointer;
+
+
+
+
+
+#slider {
+	width: 376px;
+	height: 453px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa {
+	width: 1128px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+
+}
+
+#polosa img {
+	float: left;
+	
+}
+
+#polosa::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+#slider_left {
+	background-image: url("../img/left.png");
+	background-repeat: no-repeat;
+	display: block;
+	height: 140px;
+	width: 140px;
+	margin-top: 200px;
+
+}
+
+
+#slider_right {
+	background-image: url("../img/right.png");
+	background-repeat: no-repeat;
+	height: 140px;
+	width: 140px;
+	margin-top: 200px; 
 }
 
 
 
-
-
-
-
-
+.slide-single {
+	width: 376px;
+	height: 453px;
+}
 
 
 

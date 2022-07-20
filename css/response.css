@@ -1,0 +1,32 @@
+@media (max-width: 1200px) { 
+	.company_img {width: 50%}
+
+}
+@media (max-width: 992px) { 
+	.company_img {
+		width: 50%
+	}
+
+}
+@media (max-width: 768px) { 
+	.company_img {
+		width: 50%
+	}
+
+}
+@media (max-width: 576px) { 
+	.company_img {
+		width: 50%
+	}
+
+}
+@media (max-width: 280px) { 
+	.company_img {
+		width: 50%
+	}
+
+}
+
+	.company_img {
+		width: 50%
+	}
